@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: store
+  jwt:
+    secret: 36c2af8ce1081bb117cc43c7a54756c5f2190777557678ee6bf18d57884b070d4091ec64ec1791de18dc30f21753e52c6bef4637716cff0966314ee914e2c92f
+  profiles:
+    active: dev
+
+#payment:
+#  service: Razorpay
+#
+#email:
+#  host: Localhost
+#  port: 8080
+#
+#paytm:
+#  name: Paytm
+#  account:
+#    balance: 10000
+#    loan: 250000

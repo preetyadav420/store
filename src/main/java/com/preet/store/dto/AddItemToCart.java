@@ -5,11 +5,8 @@ import lombok.Getter;
 
 import java.io.Serializable;
 
-/**
- * DTO for {@link com.preet.store.entities.CatItem}
- */
 @AllArgsConstructor
 @Getter
-public class AddItemToCart implements Serializable {
-    private final ProductDto1 product;
+public class AddItemToCart {
+    private long productId;
 }

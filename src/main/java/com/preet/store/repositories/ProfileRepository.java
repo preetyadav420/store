@@ -1,4 +1,7 @@
 package com.preet.store.repositories;
 
-public interface ProfileRepository {
+import com.preet.store.entities.Profile;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProfileRepository extends CrudRepository<Profile,Long> {
 }
