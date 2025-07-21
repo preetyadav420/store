@@ -5,6 +5,8 @@ spring:
     secret: 36c2af8ce1081bb117cc43c7a54756c5f2190777557678ee6bf18d57884b070d4091ec64ec1791de18dc30f21753e52c6bef4637716cff0966314ee914e2c92f
   profiles:
     active: dev
+  flyway:
+    baseline-on-migrate: true
 
 #payment:
 #  service: Razorpay
